@@ -3,7 +3,7 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime
 
 # from dags.python_packages.test_connect_to_db.main import main
-from python_packages.test_connect_to_db.main import main
+from test_connect_to_db.main import main
 
 with DAG(
     "db_connect_test_dag",
