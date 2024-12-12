@@ -2,7 +2,8 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
 
-import dags.python_packages.test_connect_to_db.main as main
+# from dags.python_packages.test_connect_to_db.main import main
+from python_packages.test_connect_to_db.main import main
 
 with DAG(
     "db_connect_test_dag",
@@ -13,5 +14,5 @@ with DAG(
     # connect_test01 = BashOperator(task_id="task_1", bash_command="echo 'Hello World from DAG task 1'")
     connect_test01 = PythonOperator(
         task_id="connect_test01" ,
-        python_callable=main.main()
+        python_callable=main
     )
