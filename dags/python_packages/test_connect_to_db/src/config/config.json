@@ -1,0 +1,44 @@
+{
+    "TIBERO_CMAS_RODB_CONFIG": {
+        "driver": "com.tmax.tibero.jdbc.TbDriver",
+        "url": "jdbc:tibero:thin:@10.20.102.70:8629:CMASPROD",
+        "user": "sehrapp",
+        "password": "sehrapp123#",
+        "jdbcDriver": "python_packages/test_connect_to_db/src/lib/tibero6-jdbc.jar",
+        "db_name": "CMASRODB"
+    },
+    "TIBERO_CMCA_RODB_CONFIG": {
+        "driver": "com.tmax.tibero.jdbc.TbDriver",
+        "url": "jdbc:tibero:thin:@10.20.2.70:8629:CMCAPROD",
+        "user": "sehrapp",
+        "password": "sehrapp123#",
+        "jdbcDriver": "python_packages/test_connect_to_db/src/lib/tibero6-jdbc.jar",
+        "db_name": "CMCARODB"
+    },
+    "TIBERO_SYMC_RODB_CONFIG": {
+        "driver": "com.tmax.tibero.jdbc.TbDriver",
+        "url": "jdbc:tibero:thin:@10.80.15.70:8629:SYMCPROD",
+        "user": "sehrapp",
+        "password": "sehrapp123#",
+        "jdbcDriver": "python_packages/test_connect_to_db/src/lib/tibero6-jdbc.jar",
+        "db_name": "SYMCRODB"
+    },
+    "MYSQL_aichatbot": {
+        "host": "db-pfrg8.vpc-cdb.ntruss.com",
+        "user": "hunidba",
+        "password": "hunidba1234!@#$",
+        "database": "aichatbot"
+    },
+    "MYSQL_aichatbot_dev": {
+        "host": "db-pfrg8.vpc-cdb.ntruss.com",
+        "user": "onemiddle",
+        "password": "huniverse1!",
+        "database": "aichatbot_dev"
+    },
+    "MYSQL_localhost": {
+        "host": "localhost",
+        "user": "root",
+        "password": "1234",
+        "database": "aichatbot"
+    }
+}
