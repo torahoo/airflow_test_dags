@@ -13,6 +13,5 @@ with DAG(
     # connect_test01 = BashOperator(task_id="task_1", bash_command="echo 'Hello World from DAG task 1'")
     connect_test01 = PythonOperator(
         task_id="connect_test01" ,
-        python_callable=main.main() ,
-        dag=dag
+        python_callable=main.main()
     )
