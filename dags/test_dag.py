@@ -8,4 +8,4 @@ with DAG(
     schedule_interval="@hourly",
     catchup=False,
 ) as dag:
-    task_1 = BashOperator(task_id="task_1", bash_command="echo 'Hello World from DAG task 1'")
+    task_1 = BashOperator(task_id="task_1", bash_command="echo 'Hello World from DAG task 1 Commit and Push was worked?'")
