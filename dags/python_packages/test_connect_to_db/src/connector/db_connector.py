@@ -1,8 +1,8 @@
 import jaydebeapi as jdbc
 import json
 import logging
-from dags.python_packages.test_connect_to_db.src.config.path_config import Path
-from dags.python_packages.test_connect_to_db.src.log.logger import Logger
+from python_packages.test_connect_to_db.src.config.path_config import Path
+from python_packages.test_connect_to_db.src.log.logger import Logger
 
 class DBConnector :
     def __init__(self, db_type, config_path=f"{Path.config_path}/config.json"):

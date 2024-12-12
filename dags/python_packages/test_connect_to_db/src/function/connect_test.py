@@ -1,7 +1,7 @@
-from dags.python_packages.test_connect_to_db.src.query_loader import QueryLoader
-from dags.python_packages.test_connect_to_db.src.config.path_config import Path
-from dags.python_packages.test_connect_to_db.src.log.logger import Logger
-from dags.python_packages.test_connect_to_db.src.connector.db_connector import DBConnector
+from python_packages.test_connect_to_db.src.query_loader import QueryLoader
+from python_packages.test_connect_to_db.src.config.path_config import Path
+from python_packages.test_connect_to_db.src.log.logger import Logger
+from python_packages.test_connect_to_db.src.connector.db_connector import DBConnector
 
 import logging
 

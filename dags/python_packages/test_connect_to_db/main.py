@@ -1,5 +1,5 @@
-from dags.python_packages.test_connect_to_db.src.function.connect_test import ConnectTest
-from dags.python_packages.test_connect_to_db.src.config.path_config import Path
+from python_packages.test_connect_to_db.src.function.connect_test import ConnectTest
+from python_packages.test_connect_to_db.src.config.path_config import Path
 
 
 def main():
